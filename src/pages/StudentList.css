@@ -1,0 +1,214 @@
+
+/* Student List Container */
+.student-list {
+  margin-top: 15px;
+  background: white;
+  padding: 12px 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* Heading */
+.student-list h2 {
+  margin-bottom: 12px;
+  color: #1e293b;
+  font-size: 22px;
+}
+
+/* Table */
+.student-list table {
+  width: fit-content;
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+/* Table Headers and Cells */
+.student-list th,
+.student-list td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+/* Table Header */
+.student-list th {
+  background: #1e293b;
+  color: white;
+}
+
+/* Row Hover */
+.student-list tr:hover {
+  background: #f1f5f9;
+}
+
+/* Search Input */
+.search-input {
+  width: 100%;
+  max-width: 350px;
+  padding: 9px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 4px rgba(37, 99, 235, 0.3);
+}
+
+/* Dropdown */
+.student-list select {
+  padding: 8px 10px;
+  margin: 0 8px 15px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 13px;
+}
+
+.student-list select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+/* Common Button Style */
+.action-buttons button {
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+/* View Button */
+.view-btn {
+  background-color: #0f766e;
+}
+
+.view-btn:hover {
+  background-color: #115e59;
+}
+
+/* Edit Button */
+.edit-btn {
+  background-color: #2563eb;
+}
+
+.edit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #dc2626;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .student-list {
+    padding: 10px;
+  }
+
+  .student-list table {
+    min-width: 650px;
+  }
+}
+
+
+.student-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.student-controls .search-input {
+  margin-bottom: 0;
+}
+
+.student-controls select {
+  margin: 0;
+}
+
+.export-btn {
+  padding: 9px 14px;
+  background: #0f766e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  background: #115e59;
+}
+
+/* Pagination */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pagination p {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.pagination-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pagination-buttons button {
+  padding: 8px 12px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  color: #334155;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-buttons button:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.pagination-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-buttons button.active-page {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+

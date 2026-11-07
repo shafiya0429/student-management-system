@@ -1,0 +1,41 @@
+
+.student-details {
+  padding: 20px;
+}
+
+.student-details h1 {
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+.details-card {
+  background-color: white;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-card h2 {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.details-card p {
+  margin: 15px 0;
+  color: #334155;
+}
+
+.details-card button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-card button:hover {
+  background-color: #1d4ed8;
+}

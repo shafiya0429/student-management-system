@@ -1,0 +1,115 @@
+
+.attendance-report {
+  padding: 20px;
+}
+
+.attendance-report h1 {
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.report-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.report-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.report-card h3 {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.report-card h2 {
+  color: #2563eb;
+  font-size: 26px;
+}
+
+.report-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.report-container h2 {
+  color: #334155;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.report-search {
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.report-search:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.report-table-wrapper {
+  overflow-x: auto;
+}
+
+.report-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-container th,
+.report-container td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+.report-container th {
+  background: #1e293b;
+  color: white;
+}
+
+.report-container tr:hover {
+  background: #f8fafc;
+}
+
+.good-attendance {
+  color: #15803d;
+  font-weight: 600;
+}
+
+.low-attendance {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .report-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .report-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .report-container {
+    padding: 12px;
+  }
+}
+

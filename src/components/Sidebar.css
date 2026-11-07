@@ -1,0 +1,48 @@
+/* Sidebar container */
+.sidebar {
+  width: 220px;
+  min-height: calc(100vh - 65px);
+  background-color: #334155;
+  color: white;
+  padding: 25px 20px;
+  box-sizing: border-box;
+}
+
+/* Sidebar heading */
+.sidebar h3 {
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+/* Remove default list styling */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Sidebar menu items */
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+/* Navigation links */
+.sidebar ul li a {
+  display: block;
+  padding: 12px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.sidebar ul li a:hover {
+  background-color: #475569;
+}
+
+/* Active page */
+.sidebar ul li a.active {
+  background-color: #2563eb;
+  color: white;
+}

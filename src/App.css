@@ -1,0 +1,13 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-layout {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+}

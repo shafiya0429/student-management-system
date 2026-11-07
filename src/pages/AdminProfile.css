@@ -1,0 +1,67 @@
+.admin-profile {
+  padding: 20px;
+}
+
+.admin-profile h1 {
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  max-width: 450px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+.profile-card h3 {
+  margin: 20px 0 15px;
+  color: #334155;
+}
+
+.profile-card hr {
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+  margin: 20px 0;
+}
+
+.profile-card label {
+  display: block;
+  margin: 12px 0 6px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.profile-card input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.profile-card button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 11px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-card button:hover {
+  background: #1d4ed8;
+}
+
+.profile-message {
+  margin-top: 12px;
+  color: #0f766e;
+}
